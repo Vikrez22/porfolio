@@ -6,7 +6,8 @@
 
 body {
     background: white;
-    height: 1000px;
+    height: auto;
+    width: auto;
     text-align: center;
 }
 
@@ -149,7 +150,7 @@ a:hover{
 
 .bottom-container {
     background: #66BFBF;
-    height: 100px;
+    height: 110px;
     width: auto;
     padding: 10px;
 }
@@ -158,8 +159,13 @@ a:hover{
     color: white;
     font-weight: lighter;
     font-size: 15px;
-    margin-top: 15px;
+    margin-top: 8px;
     cursor: pointer;
+}
+.number {
+    color: white;
+    font-size: x-small;
+    margin-top: 5px;
 }
 
 
@@ -186,6 +192,9 @@ a:hover{
 
 
 @media only screen and (max-width: 850px) {
+    body {
+        width: auto;
+    }
     .top-cloud, .bottom-cloud {
        display: none;
     }
@@ -265,42 +274,49 @@ a:hover{
 
 
 /* mobile */
-@media only screen and (max-width:550px){
+@media only screen and (max-width:500px){
     body {
-        width: auto;
+        width:auto;
     }
     h3{
+        margin-top: 30px;
         font-size: medium;
-        margin-left: -50px;
+        margin-left: 10px;
     }
 
     #learning {
         width: 305px;
-        margin-left: 70px;
+        font-size: medium;
+        margin-left: 50px;
     }
     
     #football {
+        font-size: medium;
         width: 305px;
-        margin-left: 75px;
+        margin-left: 45px;
     }
     .football-img {
         width: 125px;
          float: right;
-        margin-left: -80px;
+        margin-left: -60px;
     }
     
     .code-img {
-        margin-left: -120px;
+        margin-left: -90px;
     }
     .contact-message {
         width: 290px;
-        margin-left: 80px;
+        margin-left: 55px;
     }
     .much {
         font-size: medium;
-        margin-left: -17px;
+        margin-left: 10px;
     }
     .mountain {
         display: none;
     } 
+    .skill-row {
+        width: auto;
+        margin: auto;
+    }
 }
