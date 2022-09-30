@@ -1,0 +1,305 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: white;
+    height: 1000px;
+    text-align: center;
+}
+
+/* top header */
+.top-container {
+    background-color: #dae9ee;
+    height: auto;
+    width: auto;
+}
+
+.top-cloud {
+    position: relative;
+    margin-left: 650px;
+    margin-top: 30px;
+    height: 70px;
+    width: 150px;
+}
+
+.bottom-cloud {
+    position: relative;
+    /* left:250px; */
+    margin-bottom: 320px;
+    margin-left: -199px;
+    height: 70px;
+    width: 150px;
+    
+}
+
+.mountain {
+    position: relative;
+    width: 560px;
+    /* height: 334px; */
+    margin-bottom: 80px;
+    margin-left: -100px;
+}
+
+#vikrez {
+    font-family: cursive;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+
+
+
+h1{
+    color: #66BFBF;
+    font-size: 90px;
+    margin-top: 50px auto 0 auto;
+    font-family: 'sacramento';
+}
+
+h2{
+    color: #66BFBF;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: normal;
+}
+h3{
+    color: #11999E;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 2;
+}
+
+hr {
+    border: dotted #66BFBF 5px;
+    width: 40px;
+    margin: 100px auto;
+    border-bottom: none;
+
+}
+
+#profile-img {
+    width: 250px;   
+}
+
+.intro {
+    width: 390px;
+    margin: auto;
+  }
+
+
+  .skill-row {
+    width: 800px;
+    margin: 100px auto 100px auto;
+    text-align: left;
+}
+
+#learning {
+    width: auto;
+}
+
+#football {
+    width: 700px;
+}
+
+.football-img {
+    width: 175px;
+    float: right;
+    margin-left: 0px;
+}
+
+.code-img {
+    width: 250px;
+    float: left;
+    margin-right: 30px;
+    margin-top: -57px;
+}
+
+.contact-message {
+    width: 600px;
+    margin: auto;
+}
+
+.btn {
+    background: #11999E;
+    border-color: #11999E;
+    color: #E4F9F5;
+    height: 40px;
+    width: 120px;
+    margin-top: 60px;
+    border-radius: 5px;
+    margin-bottom:20px ;
+}
+
+.btn:hover{
+   cursor: pointer;
+   background: #66BFBF;
+   border: #66BFBF;
+}
+
+a {
+    text-decoration: none;
+    color: #11999E;
+    padding: 15px;
+}
+
+a:hover{
+    color: white;
+}
+
+.bottom-container {
+    background: #66BFBF;
+    height: 100px;
+    width: auto;
+    padding: 10px;
+}
+
+.copyright {
+    color: white;
+    font-weight: lighter;
+    font-size: 15px;
+    margin-top: 15px;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 850px) {
+    .top-cloud, .bottom-cloud {
+       display: none;
+    }
+
+    h1{
+        font-size: 50px;
+        margin-top: 50px auto 0 auto;
+        font-family: 'sacramento';
+    }
+    #vikrez {
+        font-family: cursive;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .mountain {
+        margin: auto;
+        display: flex;
+        width: 85vw;
+        margin-bottom: 20px;
+        margin-top: 40px;
+    }
+    /* top header */
+    .top-container {
+        padding-bottom: 40px;
+    }
+    #profile-img {
+        width: 190px;   
+    }
+    .intro {
+        width: 350px;
+        margin: auto;
+      }
+      hr {
+        border: dotted #66BFBF 5px;
+        width: 30px;
+        margin: 100px auto;
+        border-bottom: none;
+    }
+    .skill-row {
+        width: 500px;
+        margin: 100px auto 100px auto;
+        text-align: center;
+    }
+    .football-img {
+        width: 140px;
+        margin-left: -65px;
+        margin-top: 50px;
+        position:absolute;
+    }
+    .code-img {
+        position:absolute;
+        width: 190px;
+        margin-left: -79px;
+        margin-top: 40px;
+    }
+    #learning {
+        width:400px;
+        margin-left: 35px;
+        margin-top: 170px;
+        line-height: 25px;
+    }
+    #football {
+        width: 450px;
+        margin-top: 170px;
+        line-height: 25px;
+    }
+    .contact-message {
+        width: 400px;
+        margin: auto;
+    }
+    .bottom-container {
+        background: #66BFBF;
+        height: 100px;
+        width: auto;
+    }
+}
+
+
+/* mobile */
+/* @media only screen and (max-width:550px){
+    body {
+        wi
+    }
+    h3{
+        font-size: medium;
+        margin-left: -130px;
+    }
+
+    #learning {
+        width: 305px;
+    }
+    
+    #football {
+        width: 305px;
+        margin-left: 30px;
+    }
+    .football-img {
+        width: 75px;
+        /* float: right; */
+        /* margin-left: 0px; */
+    /* } */
+    
+    /* .code-img {
+        
+    }
+    .contact-message {
+        width: 290px;
+        margin-left: 40px;
+    }
+    .much {
+        font-size: medium;
+        margin-left: -4px;
+    }
+    .mountain {
+        display: none;
+    } */
+/* } */ */
